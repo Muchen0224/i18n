@@ -1,4 +1,5 @@
 {
-    "title": "Nextore V3 Title",
-    "description": "i18n test"
+  "title": "Nextore V3 Title",
+  "description": "i18n test",
+  "testCompField": "testtest"
 }

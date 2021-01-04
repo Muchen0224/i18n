@@ -14,12 +14,20 @@
     <!-- 使用 $t(key) 即可依所選用的語系顯示對應的語言 -->
     <h1>{{ $t("title") }}</h1>
     <h2>{{ $t("description") }}</h2>
+
+    <!-- 測試component內的語言是否一樣更變 -->
+    <TestComponent />
   </div>
 </template>
 
 <script>
+import TestComponent from "./TestComponent";
+
 export default {
   name: "HelloWorld",
+  components: {
+    TestComponent,
+  },
   data() {
     return {
       lang: null,

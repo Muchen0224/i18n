@@ -1,4 +1,5 @@
 {
-    "title": "目錄",
-    "description": "i18n 測試"
+  "title": "目錄",
+  "description": "i18n 測試",
+  "testCompField": "testtest 測試"
 }
