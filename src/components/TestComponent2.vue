@@ -1,5 +1,6 @@
 <template>
   <div>
+    <!-- Scope 測試 -->
     <h1>{{ $t("hello") }}</h1>
   </div>
 </template>
@@ -11,10 +12,10 @@ export default {};
 <i18n>
 {
   "en": {
-    "hello": "hello world!"
+    "hello": "hello world! 2"
   },
   "zh": {
-    "hello": "こんにちは、世界！"
+    "hello": "こんにちは、世界！ 2"
   }
 }
 </i18n>

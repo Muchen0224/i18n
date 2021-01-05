@@ -17,16 +17,21 @@
 
     <!-- 測試component內的語言是否一樣更變 -->
     <TestComponent />
+
+    <!-- Scope 測試 -->
+    <TestComponent2 />
   </div>
 </template>
 
 <script>
 import TestComponent from "./TestComponent";
+import TestComponent2 from "./TestComponent2";
 
 export default {
   name: "HelloWorld",
   components: {
     TestComponent,
+    TestComponent2,
   },
   data() {
     return {
